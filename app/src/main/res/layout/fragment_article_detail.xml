@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cloudyWhite">
+
+    <com.ersen.pulselivetest.views.widgets.PlaceholderView
+        android:id="@+id/placeholderView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ScrollView
+        android:id="@+id/scroll_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_articleSubTitle"
+                style="@style/TextView.Sub.Header"
+                tools:text="Lleyton Hewitt begins his final major tournament after Rafael Nadal loses to Fernando Verdasco and Simona Halep crashes out." />
+
+            <TextView
+                android:id="@+id/text_articleDate"
+                style="@style/TextView.Sub.Header"
+                tools:text="Posted: 18/04/2013 11:48" />
+
+            <include layout="@layout/partial_really_light_grey_line_separator" />
+
+            <TextView
+                android:id="@+id/text_articleBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                tools:text="Should the defeat be treated as a one-off, or does it indicate the 14-time Grand Slam champion, who turns 30 this year, is in a state of decline? Nadal's defeat by Spanish compatriot Verdasco was only his second ever first-round exit at a Grand Slam. But it followed a 2015 season in which he failed to win a Grand Slam title for the first time since 2004." />
+
+            <include layout="@layout/partial_really_light_grey_line_separator" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

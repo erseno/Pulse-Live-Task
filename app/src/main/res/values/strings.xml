@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pulse Live Test</string>
+
+    <!-- FRAGMENT SCREEN NAMES-->
+    <string name="fragment_articlesList">Top Articles</string>
+
+    <!-- GENERIC STRINGS-->
+    <string name="generic_retry">Retry</string>
+
+
+
+    <!-- ERROR MESSAGES -->
+    <string name="error_network_badConnection">We\'re having difficulty connecting to the server. Please check your internet connection and try again later.</string>
+    <string name="error_network_unknown" >An unexpected error has occurred.</string>
+    <string name="error_server_unknown" formatted="false" >An unexpected server error has occurred. Status code %s</string>
+
+    <!-- LOADING MESSAGES -->
+    <string name="loading_articles">Loading articles#8230;</string>
+    <string name="loading_article">Loading article#8230;</string>
+
+</resources>
